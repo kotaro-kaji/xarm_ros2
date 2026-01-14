@@ -1,3 +1,19 @@
+# Eye on base用レポジトリ
+以下のファイルを追加しました。こちらを使用してください。
+- src/xarm_ros2/xarm_vision/d435i_xarm_setup/launch/d435i_robot_auto_calib_eye_on_base.launch.py
+- src/xarm_ros2/xarm_vision/d435i_xarm_setup/launch/d435i_robot_evaluate_eye_on_base.launch.py
+
+コマンド例：
+
+```bash
+cd ~/ros2_ws;
+source install/setup.bash;
+ros2 launch d435i_xarm_setup d435i_robot_auto_calib_eye_on_base.launch.py robot_type:=xarm dof:=7 robot_ip:=192.168.1.244 camera_serial:="_314422070401"
+```
+
+
+
+
 # xarm_ros2
 
 For simplified Chinese version: [简体中文版](./ReadMe_cn.md)
